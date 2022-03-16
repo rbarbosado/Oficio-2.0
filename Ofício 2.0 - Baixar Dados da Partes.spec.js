@@ -1,4 +1,4 @@
-/// [Script version: 0.1]
+/// [Script version: 1.1]
 /// [Script created: rbarbosado@minsait.com]
 /// <reference types="Cypress" />
 
@@ -13,14 +13,13 @@ describe('Oficio 2.0', function () {
       cy.get('#trigger').click(),
       cy.contains('Módulo').click(),
       cy.get('a[href*="#"]').contains('Ofício').click()
-     // cy.click('102.98, 33.33')
-     cy.get('input[id="moduloOficioForm:numOficioSaida"]').type('62')
-     cy.get('input[id="moduloOficioForm:dataAnoCadastro"]').type('2021')
-     cy.get('[id="moduloOficioForm:filtrar"]').click()
-     cy.contains('62/2021').click()
-     cy.get('[data-index="1"] > a').contains('Partes').click()
-     cy.get('[id="tabView:abaPartesForm:btnExportarDadosDasPartes"]').click()
-     cy.end()
+      cy.get('input[id="moduloOficioForm:numOficioSaida"]').type('62')
+      cy.get('input[id="moduloOficioForm:dataAnoCadastro"]').type('2021')
+      cy.get('[id="moduloOficioForm:filtrar"]').click()
+      cy.contains('62/2021').click()
+      cy.get('[data-index="1"] > a').contains('Partes').click()
+      cy.get('[id="tabView:abaPartesForm:btnExportarDadosDasPartes"]').click()
+      cy.end()
     })
   })
 })
