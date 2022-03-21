@@ -1,6 +1,6 @@
-/// [Script version: 1.1]
+/// [Script version: 0.1]
 /// [Script created: rbarbosado@minsait.com]
-/// <reference types="Cypress" />
+// <reference types="Cypress" />
 
 describe('Oficio 2.0', function () {
   it('verifica o título da aplicação', function () {
@@ -10,8 +10,8 @@ describe('Oficio 2.0', function () {
 
   describe('Baixar dados da aba de Partes', function () {
     it('Baixar dados da aba de Partes', function () {
-      cy.get('#trigger').click(),
-      cy.contains('Módulo').click(),
+      cy.get('#trigger').click()
+      cy.contains('Módulo').click()
       cy.get('a[href*="#"]').contains('Ofício').click()
       cy.get('input[id="moduloOficioForm:numOficioSaida"]').type('62')
       cy.get('input[id="moduloOficioForm:dataAnoCadastro"]').type('2021')
