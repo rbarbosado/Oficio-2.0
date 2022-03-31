@@ -1,4 +1,4 @@
-# Guia de Scripts - Ofício 2.0
+# Guia de Scripts - Ofício 2.0 - Ultima Atualização: 31/03/2022
 
 #### Aqui estão alguns scripts criados para execução automatizada de cenários do Ofício 2.0
 _* Sempre que um script for atualizado com alguma melhoria de código ou com alguma correção no fluxo de execução, o mesmo será disponibilizado aqui e a versão anterior será descontinuada/removida_
