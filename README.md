@@ -5,24 +5,38 @@ _* Sempre que um script for atualizado com alguma melhoria de código ou com alg
 
 #### Scripts Disponíveis atualmente:
 
-*Ofício 2.0 - Acessar Aba Partes*
--- Ofício 2.0 - Acessar Aba Partes
+# Ofício 2.0 - Acessar Aba Partes
 
-*Ofício 2.0 - Baixar Dados da Partes*
--- Ofício 2.0 - Baixar Dados da Partes
+Ofício 2.0 - Acessar Aba Partes
 
-*Ofício 2.0 - Cadastro de Autorizado*
--- CT 01- Cadastro de Autorizado com Órgão
--- CT 02 - Cadastro de Autorizado - Realizar pesquisar por nome
--- CT 03 - Cadastro de Autorizado - Limpar dados da tela
--- CT 04 - Cadastro de Autorizado - Validar mensagem de e-mail já cadastro
--- CT 05 - Cadastro de Autorizado - Editar Dados cadastrados
--- CT 06 - Cadastro de Autorizado - Excluir Dados cadastrados
+# Ofício 2.0 - Baixar Dados da Partes
 
-*Ofício 2.0 - Cadastro de Solicitação*
--- CT 01 - Cadastro de Solicitação - Impede Fechamento Pendente.spec.js
--- CT 02 - Cadastro de Solicitação - Controle de Senha.spec.js
--- CT 03 - Cadastro de Solicitação - Pesquisar Nome.spec.js
--- CT 04 - Cadastro de Solicitação - Limpar Dados da Tela.spec.js
--- CT 05 - Cadastro de Solicitação - Editar Cadastro.spec.js
--- CT 06 - Cadastro de Solicitação - Excluir Cadastro.spec.js
+Ofício 2.0 - Baixar Dados da Partes
+
+# Ofício 2.0 - Cadastro de Autorizado
+
+CT 01- Cadastro de Autorizado com Órgão
+
+CT 02 - Cadastro de Autorizado - Realizar pesquisar por nome
+
+CT 03 - Cadastro de Autorizado - Limpar dados da tela
+
+CT 04 - Cadastro de Autorizado - Validar mensagem de e-mail já cadastro
+
+CT 05 - Cadastro de Autorizado - Editar Dados cadastrados
+
+CT 06 - Cadastro de Autorizado - Excluir Dados cadastrados
+
+# Ofício 2.0 - Cadastro de Solicitação
+
+CT 01 - Cadastro de Solicitação - Impede Fechamento Pendente
+
+CT 02 - Cadastro de Solicitação - Controle de Senha
+
+CT 03 - Cadastro de Solicitação - Pesquisar Nome
+
+CT 04 - Cadastro de Solicitação - Limpar Dados da Tela
+
+CT 05 - Cadastro de Solicitação - Editar Cadastro
+
+CT 06 - Cadastro de Solicitação - Excluir Cadastro
