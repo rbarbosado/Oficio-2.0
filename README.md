@@ -5,9 +5,9 @@ _* Sempre que um script for atualizado com alguma melhoria de código ou com alg
 
 #### Scripts Disponíveis atualmente:
 
-# Ofício 2.0 - Acessar Aba Partes - Script atualizado para o fluxo da demanda PTIJAR 979
+# Ofício 2.0 - Acessar Aba Partes
 
-Ofício 2.0 - Acessar Aba Partes
+Ofício 2.0 - Acessar Aba Partes - Script atualizado para o fluxo da demanda PTIJAR-979
 
 # Ofício 2.0 - Baixar Dados da Partes
 
