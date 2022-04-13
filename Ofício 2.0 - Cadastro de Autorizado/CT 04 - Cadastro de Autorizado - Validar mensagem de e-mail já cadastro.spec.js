@@ -1,6 +1,6 @@
 /// [Script version: 0.1]
 /// [Script created: rbarbosado@minsait.com]
-// <reference types="Cypress" />
+/// <reference types="Cypress" />
 
 describe('Oficio 2.0', function () {
   it('verifica o título da aplicação', function () {

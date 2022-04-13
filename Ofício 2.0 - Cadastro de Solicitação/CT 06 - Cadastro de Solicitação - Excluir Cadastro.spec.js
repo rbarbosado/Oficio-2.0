@@ -1,6 +1,6 @@
 /// [Script version: 0.3]
 /// [Script created: rbarbosado@minsait.com]
-// <reference types="Cypress" />
+/// <reference types="Cypress" />
 
 describe('Oficio 2.0', function () {
   it('verifica o título da aplicação', function () {
@@ -10,14 +10,14 @@ describe('Oficio 2.0', function () {
 
   describe('Cadastro de Solicitação - Excluir Cadastro', function () {
     it('Cadastro de Solicitação - Excluir Cadastro', function () {
-      cy.get('#trigger').click().wait(1500) // Acessar Menu
-      cy.get('#formMenu > :nth-child(6) > :nth-child(1) > :nth-child(1)').click().wait(1500) // Acessar opção de cadastro
-      cy.get('.mp-level-open > :nth-child(6) > :nth-child(1) > :nth-child(1)').click().wait(1500) // Acessar opção de oficio
-      cy.get('a[href*="#"]').contains('Tipo de Solicitação').click().wait(1500) // Acessar tipo de solicitação
-      cy.get('#tipoDeSolicitacaoFiltroForm').contains('Nome').click().type('TESTE AUTOMACAO').wait(1500) // Clicar no campo para pesquisa de nome
-      cy.get('#tipoDeSolicitacaoFiltroForm').contains('Pesquisar').click().wait(1500) // Clicar no botão pesquisar
-      cy.get('[id="tipoDeSolicitacaoFiltroForm:listaDeTipoDeSolicitacoesDataTable:0:actionExcluir"]').click().wait(1500) // Clicar np botão de excluir
-      cy.get('.ui-messages-info-summary').contains('O tipo TESTE AUTOMACAO ALTERADO foi excluído com sucesso.').wait(1500)
+      cy.get('#trigger').click() // Acessar Menu
+      cy.get('#formMenu > :nth-child(6) > :nth-child(1) > :nth-child(1)').click() // Acessar opção de cadastro
+      cy.get('.mp-level-open > :nth-child(6) > :nth-child(1) > :nth-child(1)').click() // Acessar opção de oficio
+      cy.get('a[href*="#"]').contains('Tipo de Solicitação').click()// Acessar tipo de solicitação
+      cy.get('#tipoDeSolicitacaoFiltroForm').contains('Nome').click().type('TESTE AUTOMACAO')// Clicar no campo para pesquisa de nome
+      cy.get('#tipoDeSolicitacaoFiltroForm').contains('Pesquisar').click()// Clicar no botão pesquisar
+      cy.get('[id="tipoDeSolicitacaoFiltroForm:listaDeTipoDeSolicitacoesDataTable:0:actionExcluir"]').click()// Clicar np botão de excluir
+      cy.get('.ui-messages-info-summary').contains('O tipo TESTE AUTOMACAO ALTERADO foi excluído com sucesso.')
     })
   })
 })
